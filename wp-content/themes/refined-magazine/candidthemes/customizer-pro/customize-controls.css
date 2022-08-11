@@ -1,0 +1,13 @@
+#accordion-panel-refined-magazine_panel .accordion-section-title,
+#accordion-section-refined_magazine_about_theme_section .accordion-section-title{
+	margin-top:  -4px;
+	font-weight: 400;
+	font-size: 16px;
+	background: #ff0000;
+	color: #fff;
+}
+.at-pro {
+	background: #ff0000!important;
+	color: #fff!important;
+	box-shadow: none!important;
+}

@@ -1,0 +1,71 @@
+.perfecty-push-items-list {
+  list-style: circle;
+  list-style-position: inside;
+}
+
+.perfecty-push-view-form label {
+  font-weight: bold;
+}
+
+.perfecty-push-view-payload {
+  margin-left: 20px;
+  padding: 10px;
+  width: 500px;
+  background-color: #ffffff;
+}
+
+.perfecty-push-view-payload div {
+  margin: 3px;
+}
+
+.perfecty-push-view-payload span {
+  font-weight: bold;
+}
+
+.perfecty-push-view-payload-image, .perfecty-push-view-payload-icon {
+  max-width: 250px;
+  max-height: 250px;
+}
+
+.perfecty-push-default-icon-preview {
+  width: 50px;
+  height: 50px;
+}
+
+.perfecty-push-default-icon-preview-container {
+  display: none;
+}
+
+/* Send Notification */
+
+.perfecty-push-send-notification-image-preview {
+  width: 100px;
+  height: 100px;
+}
+
+.perfecty-push-send-notification-image-preview-container {
+  display: none;
+}
+
+.perfecty-push-stats > div {
+  float: left;
+  margin: 20px;
+}
+
+.perfecty-push-logs-table table tbody tr td{
+  font-family: monospace;
+}
+
+.perfecty-push-settings-form input[type=text], .perfecty-push-settings-form textarea {
+  width: 400px;
+}
+
+.perfecty-push-settings-form .form-table{
+  margin-left: 30px;
+}
+
+.perfecty-push-options-unregister-conflicts-regex {
+  width: 400px;
+  color: gray;
+  font-style: italic;
+}

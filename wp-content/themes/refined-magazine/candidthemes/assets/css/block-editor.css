@@ -1,0 +1,115 @@
+.wp-block {
+	max-width: 780px;
+}
+
+.block-editor-writing-flow {
+	padding-left: 3rem;
+}
+
+.block-editor .editor-styles-wrapper,
+.block-editor .editor-styles-wrapper p {
+	font-size: 18px;
+	color: #111;
+}
+
+.editor-block-list__block-edit,
+.editor-block-list__block {
+	font-family: 'Open Sans', BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.editor-post-title__block .editor-post-title__input {
+	font-family: 'Open Sans', BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+	font-weight: 700;
+	line-height: 1.3;
+	color: #111;
+	font-size: 2.8em;
+}
+
+.block-editor-block-list__block[data-type="core/paragraph"] p{
+	line-height: 2;
+}
+
+a {
+	text-decoration: underline;
+}
+
+a,
+a:visited,
+.block-editor-rich-text__editable a {
+	color: #111;
+}
+
+a:hover,
+a:focus,
+a:active,
+.block-editor-rich-text__editable a:hover,
+.block-editor-rich-text__editable a:focus,
+.block-editor-rich-text__editable a:active {
+	color: #111;
+	text-decoration: none;
+}
+
+a img {
+	border: 0;
+}
+
+.wp-block-file a.wp-block-file__button,
+.wp-block-file a.wp-block-file__button:visited,
+.wp-block-button__link {
+	text-decoration: underline;
+}
+
+.wp-block-file a.wp-block-file__button:hover,
+.wp-block-file a.wp-block-file__button:focus,
+.wp-block-button__link:hover,
+.wp-block-button__link:focus {
+	text-decoration: none;
+}
+
+/*increase contrast*/
+.wp-block-latest-comments__comment-date,
+.wp-block-video figcaption,
+.wp-block-quote cite,
+.wp-block-audio figcaption {
+	color: #333;
+}
+
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wp-block-preformatted {
+	background: #eee;
+	line-height: 1.6;
+	margin-bottom: 1.6em;
+	max-width: 100%;
+	overflow: auto;
+	padding: 1.6em;
+	word-wrap: break-word;
+	white-space: pre-wrap;
+}
+
+.wp-block-preformatted pre {
+	font-family: "Courier 10 Pitch", Courier, monospace;
+	color: #111;
+	font-size: 18px;
+}
+
+.wp-block-table table {
+	border-collapse: separate;
+}

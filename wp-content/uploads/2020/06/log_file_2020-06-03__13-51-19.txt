@@ -1,0 +1,14 @@
+
+---Upload files---
+Redux file was not uploaded. Error: Specified file failed upload test.
+
+---Upload files---
+The import files were successfully uploaded!
+Initial max execution time = 30
+Files info:
+Site URL = https://newsup.themeansar.com/lite
+Data file = /home2/themeans/public_html/newsup/lite/wp-content/uploads/2020/06/newsup_lite.xml
+Widget file = /home2/themeans/public_html/newsup/lite/wp-content/uploads/2020/06/newsup-lite-widgets.wie
+Customizer file = /home2/themeans/public_html/newsup/lite/wp-content/uploads/2020/06/newsup-export.dat
+Redux files:
+not defined!

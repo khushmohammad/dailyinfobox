@@ -1,0 +1,9 @@
+[2022-01-15 13:40:34 : INFO] - cURL error 28: Operation timed out after 10000 milliseconds with 0 bytes received 
+[2022-01-15 13:40:34 : INFO] - Re_Smush_It_Task server status: Offline 
+[2022-01-15 13:40:47 : INFO] - cURL error 28: Operation timed out after 10000 milliseconds with 0 bytes received 
+[2022-01-15 13:40:47 : INFO] - Re_Smush_It_Task server status: Offline 
+[2022-01-15 13:40:58 : INFO] - cURL error 28: Connection timed out after 10001 milliseconds 
+[2022-01-15 13:40:58 : INFO] - Re_Smush_It_Task server status: Offline 
+[2022-01-15 13:44:17 : INFO] - Re_Smush_It_Task server status: Online 
+[2022-01-15 13:45:06 : INFO] - cURL error 28: Operation timed out after 10000 milliseconds with 0 bytes received 
+[2022-01-15 13:45:06 : INFO] - Re_Smush_It_Task server status: Offline 

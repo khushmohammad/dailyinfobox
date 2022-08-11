@@ -1,0 +1,207 @@
+/*
+Theme Name: Refined Blog
+Theme URI: https://www.candidthemes.com/themes/refined-blog/
+Author: candidthemes
+Author URI: http://www.candidthemes.com/
+Description: Refined Blog is a free Magazine WordPress theme. It is a child theme of Refined Magazine with added features and options. It is easy to use, customize and lightweight WordPress theme. In addition to that, this theme comes with one click demo import option, 9 added custom widgets and unlimited color possibilites. Furthermore, Refined Blog is advertisement ready WordPress theme with SEO optimized code. Besides that, this theme support major and popular plugins. This free theme has best layout for blog column, home page advertisement area, related posts, etc. Similiarly, it has meta options, header and footer options, sidebar options, individual sidebar for single post and many more. This theme is Gutenberg ready, RTL compatible and translation ready WP theme. View Demos: https://refined.candidthemes.com/
+Version: 1.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: refined-blog
+Requires PHP: 5.2
+Tested up to: 5.7
+Template: refined-magazine
+Tags: two-columns, right-sidebar, custom-background, custom-colors, custom-menu, featured-images, theme-options, threaded-comments, translation-ready, rtl-language-support, footer-widgets, custom-header, three-columns, one-column, left-sidebar, news, blog
+*/
+h1, h2, h3, h4, h5, h6, .header-text, .site-title, .ct-title-head, .trending-title{
+	font-family: Poppins;
+	letter-spacing: 1px;
+}
+body{
+	background: #fff;
+}
+.entry-title {
+	font-size: 30px;
+}
+.widget-title:before, .widget ul.ct-nav-tabs:before{
+	bottom: -4px;
+	height: 4px;
+}
+.widget-title{
+	font-size: 24px;
+	border-bottom: 4px solid transparent;
+}
+.refined-magazine-featured-block .refined-magazine-col-2 .post-title,
+.ct-post-overlay .post-content .post-title, .list-post .post-content .post-title,
+.ct-first-column .post-title, .ct-grid-post-list .post-title{
+	font-size: 22px;
+}
+.slide-details h2{
+	margin-bottom: 5px;
+}
+.logo-right-wrapper, .logo-wrapper{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.cat-links a{
+	line-height: 1.2;
+}
+.entry-title{
+	padding-bottom: 8px;
+}
+.refined-awesome-carousel.refined-magazine-featured-block .refined-magazine-col-2 .refined-magazine-col:nth-child(3){
+	clear: left;
+}
+
+.refined-awesome-carousel.refined-magazine-featured-block .refined-magazine-col-2 .refined-magazine-col:nth-child(2) {
+	clear: none;
+}
+.refined-awesome-carousel{
+	margin-top: 7px;
+}
+article.post .refined-magazine-content-area,
+article.page .refined-magazine-content-area{
+	padding: 20px;
+}
+.ct-container-main{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.ct-header-carousel-section{
+	padding-top: 20px;
+}
+.ct-carousel-single {
+	margin: 0 10px;
+}
+.ct-header-carousel .slick-list {
+	margin: 0 -10px;
+}
+
+.ct-header-carousel .slick-prev {
+	display: block;
+	left: 2px;
+	z-index: 1;
+	width: auto;
+	height: auto;
+}
+
+.ct-header-carousel .slick-next {
+	display: block;
+	right: 2px;
+	z-index: 1;
+	width: auto;
+	height: auto;
+}
+
+.ct-header-carousel .slick-next:before,
+.ct-header-carousel .slick-prev:before {
+	font-size: 30px;
+	font-family: FontAwesome;
+	color: rgba(0, 0, 0, 0.6);
+	background: #fff;
+	display: inline-block;
+}
+
+.ct-header-carousel .slick-prev:before {
+	content: "\f104";
+	padding: 2px 10px 2px 5px;
+}
+
+.ct-header-carousel .slick-next:before {
+	content: "\f105";
+	padding: 2px 5px 2px 10px;
+}
+.ct-below-featured-area{
+	background-color: transparent;
+}
+.refined-blog-thumbnail-col-post .ct-three-cols{
+	padding-top: 25px;
+}
+.refined-blog-thumbnail-col-post .ct-three-cols:first-child{
+	padding-top: 0;
+}
+@media screen and (max-width: 767px) {
+	.logo-right-wrapper, .logo-wrapper{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.logo-wrapper{
+		padding-top: 30px;
+		padding-bottom: 30px;
+		text-align: center;
+	}
+	.logo-right-wrapper{
+		padding-bottom: 30px;
+		padding-top: 0px;
+	}
+	.site-title{
+		font-size: 24px;
+	}
+	.site-description{
+		font-size: 16px;
+	}
+	.container-inner{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.ct-container-main{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.site-info .container-inner{
+		padding-right: 0;
+		padding-left: 0;
+	}
+}
+@media screen and (min-width: 768px) {
+	.site-title{
+		font-size: 50px;
+	}
+	.refined-awesome-carousel.refined-magazine-featured-block .refined-magazine-col:first-child{
+		padding-right: 2px;
+	}
+	.refined-awesome-carousel.refined-magazine-featured-block .refined-magazine-col:last-child {
+		padding-left: 6px;
+	}
+	.refined-awesome-carousel.refined-magazine-featured-block .refined-magazine-col-2 .refined-magazine-col {
+		padding: 3px;
+	}
+	.refined-awesome-carousel.refined-magazine-featured-block .refined-magazine-col-2 .refined-magazine-col:nth-child(1),
+	.refined-awesome-carousel.refined-magazine-featured-block .refined-magazine-col-2 .refined-magazine-col:nth-child(2){
+		padding-top: 0;
+	}
+	.refined-awesome-carousel.refined-magazine-featured-block .refined-magazine-col-2 .refined-magazine-col:nth-child(3),
+	.refined-awesome-carousel.refined-magazine-featured-block .refined-magazine-col-2 .refined-magazine-col:nth-child(4){
+		padding-bottom: 0;
+	}
+	.refined-awesome-carousel.refined-magazine-featured-block .refined-magazine-col-2 .refined-magazine-col:nth-child(1),
+	.refined-awesome-carousel.refined-magazine-featured-block .refined-magazine-col-2 .refined-magazine-col:nth-child(3) {
+		padding-left: 0;
+	}
+	.refined-awesome-carousel.refined-magazine-featured-block .refined-magazine-col-2 .refined-magazine-col:nth-child(2),
+	.refined-awesome-carousel.refined-magazine-featured-block .refined-magazine-col-2 .refined-magazine-col:nth-child(4){
+		padding-right: 0;
+	}
+	.ct-below-featured-area .ct-three-cols:nth-child(3n+1){
+		padding-right: 20px;
+	}
+	.ct-below-featured-area .ct-three-cols:nth-child(3n+3){
+		padding-left: 20px;
+	}
+	.ct-below-featured-area .ct-three-cols:nth-child(3n+2){
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.refined-blog-thumbnail-col-post .ct-three-cols:nth-child(2),
+	.refined-blog-thumbnail-col-post .ct-three-cols:nth-child(3){
+		padding-top: 0;
+	}
+
+	#secondary .refined-blog-thumbnail-col-post .ct-three-cols:nth-child(2),
+	#secondary .refined-blog-thumbnail-col-post .ct-three-cols:nth-child(2),
+	.site-footer .refined-blog-thumbnail-col-post .ct-three-cols:nth-child(2),
+	.site-footer .refined-blog-thumbnail-col-post .ct-three-cols:nth-child(3){
+		padding-top: 25px;
+	}
+}
